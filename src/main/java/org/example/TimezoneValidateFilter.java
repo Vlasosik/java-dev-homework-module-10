@@ -27,5 +27,6 @@ public class TimezoneValidateFilter extends HttpFilter {
             response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             response.getWriter().write("ERROR: There is no such time zone - " + timezone);
         }
+        chain.doFilter(request, response);
     }
 }
