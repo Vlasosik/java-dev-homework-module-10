@@ -37,5 +37,6 @@ public class TimeServlet extends HttpServlet {
     @Override
     public void destroy() {
         dateFormat = null;
+        super.destroy();
     }
 }
