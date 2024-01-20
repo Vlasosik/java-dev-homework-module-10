@@ -1,4 +1,4 @@
-package org.example;
+package org.example.servlets;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
